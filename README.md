@@ -1,10 +1,11 @@
 # retro-joystick-adapter
-Arduino (Leonardo or Pro Micro) code to connect a retro gameport joystick with a DA-15 plug to USB
+Arduino (Leonardo or Pro Micro) code to connect a retro [gameport](https://en.wikipedia.org/wiki/Game_port) joystick with a DA-15 plug to USB
 
 This sketch uses the joystick library ArduinoJoystickLibrary
 (https://github.com/MHeironimus/ArduinoJoystickLibrary)
 to simulate a
-USB joystick. It is tested with an Arduino Pro Micro and a Wingman Extreme analog joystick.
+USB joystick. It is tested with an Arduino Pro Micro and a Wingman Extreme
+[from around 1995](https://en.wikipedia.org/wiki/List_of_Logitech_products#Joysticks) analog joystick.
 
 Because the USB manufacturer and model are subject to a USB registration the simulated joystick will appear as the Arduino board instead of a joystick model.
 
