@@ -10,7 +10,7 @@ Because the USB manufacturer and model are subject to a USB registration the sim
 
 The connections assumed in this sketch are:
 Arduino board | Game Port Pin (optional pins) | other connections
---------------|--------------
+--------------|-------------------------------|------------------
 VCC | 1 (8, 9, 15)
 GND | 4 (5, 12)
 D2 | 2
